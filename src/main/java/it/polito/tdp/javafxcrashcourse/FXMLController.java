@@ -50,6 +50,7 @@ public class FXMLController {
     		return;
     	}
     	
+    	//Saluti
     	String saluto;
     	if(eta<18) {
     		saluto="Ciao, "+nome+"!";
@@ -59,7 +60,7 @@ public class FXMLController {
     	
     	
     	lblRisposta.setText(saluto);
-
+    	
     }
 
     @FXML
